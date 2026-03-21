@@ -1,63 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>2010831934</fileChecksum>
+    <fileChecksum>540577724</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-            <file>$TOOLKIT_DIR$\inc\in430.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\gpio_led_blink.d43</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio_led_blink.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\msp430g2231.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\List\gpio_led_blink.map</file>
-            <file>$TOOLKIT_DIR$\config\linker\lnk430g2231.xcl</file>
-            <file>$PROJ_DIR$\Debug\Exe\gpio_led_blink.ulp</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\gpio_input.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_input.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2231.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
             <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2231.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\gpio_input.map</file>
+            <file>$PROJ_DIR$\main.c</file>
         </outputs>
         <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ULP430</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 2 6</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\gpio_led_blink.d43</name>
+            <name>$PROJ_DIR$\Debug\Exe\gpio_input.d43</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 6</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 7 12 10</file>
+                    <file> 10 0 8</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 3 11</file>
+                </tool>
+            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>ICC430</name>
-                    <file> 12</file>
+                    <file> 0</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -67,11 +62,11 @@
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 0 1 4 13</file>
+                    <file> 1 6 5 7</file>
                 </tool>
                 <tool>
                     <name>ICC430</name>
-                    <file> 13 4 1 0</file>
+                    <file> 7 5 6 1</file>
                 </tool>
             </inputs>
         </file>
