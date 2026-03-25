@@ -23,7 +23,7 @@ int main(void)
   P1IE |= (BIT3);
   // An interrupt bit is cleared
   P1IFG &= ~(BIT3);
-  
+  // Enable interrupts
   __bis_SR_register(GIE); 
   
   while(1)
