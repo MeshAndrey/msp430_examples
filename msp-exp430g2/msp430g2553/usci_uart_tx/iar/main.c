@@ -4,7 +4,7 @@
 int main(void)
 {
   // Stop WDT
-  WDTCTL |= WDTPW | WDTHOLD;
+  WDTCTL = WDTPW | WDTHOLD;
   /* Port 1 Selection */
   P1SEL |= BIT1 | BIT2 ;
   /* Port 1 Selection 2 */
