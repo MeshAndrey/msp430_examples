@@ -12,6 +12,7 @@ int main(void)
   {
     ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
 
+    // wait until end of conversion (EOC)
     while (ADC10CTL1 & ADC10BUSY) {
       // no operation - just wait
       // only to use in education purposes
