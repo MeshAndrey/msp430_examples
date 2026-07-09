@@ -21,6 +21,8 @@ int main(void)
       P1OUT &= ~BIT0;                       // Clear P1.0 LED off
     else
       P1OUT |= BIT0;                        // Set P1.0 LED on
+    
+    interruptHandled = 0;
   }
 }
 
