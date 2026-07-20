@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>2</fileVersion>
-    <fileChecksum>2254688263</fileChecksum>
+    <fileChecksum>4266776128</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\msp430.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\msp430f5438a.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\clocks_output.ulp</file>
-            <file>$TOOLKIT_DIR$\config\linker\lnk430f5438a.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt_timer.pbd</file>
             <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$PROJ_DIR$\Debug\Exe\clocks_output.d43</file>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\clocks_output.pbd</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\wdt_timer.ulp</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\wdt_timer.d43</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
-            <file>$PROJ_DIR$\Debug\List\clocks_output.map</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\wdt_timer.map</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -30,7 +29,7 @@
                 </tool>
                 <tool>
                     <name>XLINK</name>
-                    <file> 7 14</file>
+                    <file> 5 13</file>
                 </tool>
             </outputs>
         </file>
@@ -39,40 +38,40 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>ICC430</name>
-                    <file> 6</file>
+                    <file> 1</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 12</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 8 5 2 0</file>
+                    <file> 9 7 6 8</file>
                 </tool>
                 <tool>
                     <name>ICC430</name>
-                    <file> 0 2 5 8</file>
+                    <file> 8 6 7 9</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\clocks_output.d43</name>
+            <name>$PROJ_DIR$\Debug\Exe\wdt_timer.d43</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 14</file>
+                    <file> 13</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 4 13 6 10</file>
+                    <file> 12 1 11</file>
                 </tool>
             </inputs>
         </file>
